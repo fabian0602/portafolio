@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fabian Almonte — Desarrollador Web Junior</title>
+<meta name="description" content="Portafolio de Fabian Almonte, desarrollador web junior en Santo Domingo. JavaScript, Python, HTML/CSS y QA manual. Proyectos con demo en vivo." />
+<meta name="author" content="Fabian Ismael Almonte Guilamo" />
+<meta property="og:title" content="Fabian Almonte — Desarrollador Web Junior" />
+<meta property="og:description" content="Proyectos reales con demo en vivo: CRUD, validación de formularios, calculadora y un sitio en producción." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317457a'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='700' fill='%23fff' text-anchor='middle'%3EFA%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<a class="skip" href="#proyectos">Saltar a proyectos</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Inicio">
+      <span class="brand-mark">FA</span>
+      <span class="brand-text">Fabian Almonte<small>Desarrollador Web Junior</small></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#stack">Stack</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+        <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg>
+      </button>
+      <a class="btn btn-sm btn-ghost" href="assets/Fabian_Almonte_CV.pdf" download>Descargar CV</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <p class="pill"><span class="dot" aria-hidden="true"></span> Disponible para trabajo híbrido o presencial en Santo Domingo</p>
+
+    <h1>
+      Escribo código que<br />
+      <span class="hl">resuelve algo concreto.</span>
+    </h1>
+
+    <p class="lead">
+      Soy <strong>Fabian Almonte</strong>, desarrollador web junior en Santo Domingo.
+      Trabajo con JavaScript (ES6), Python y HTML/CSS. Aquí no hay capturas de pantalla:
+      todos los proyectos se pueden probar abajo, en esta misma página.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#proyectos">
+        Ver proyectos
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn-ghost" href="assets/Fabian_Almonte_CV.pdf" download>Descargar CV (PDF)</a>
+    </div>
+
+    <dl class="facts">
+      <div><dt>Proyectos publicados</dt><dd>4</dd></div>
+      <div><dt>Sitio en producción</dt><dd>1</dd></div>
+      <div><dt>Modalidad</dt><dd>Híbrido / Presencial</dd></div>
+      <div><dt>Ubicación</dt><dd>Santo Domingo, RD</dd></div>
+    </dl>
+  </section>
+
+  <!-- ============ PROYECTOS ============ -->
+  <section class="section wrap" id="proyectos">
+    <header class="section-head">
+      <p class="eyebrow">Trabajo</p>
+      <h2>Proyectos</h2>
+      <p class="section-lead">Cuatro piezas, cuatro problemas distintos. Cada una tiene demo funcional o enlace en vivo.</p>
+    </header>
+
+    <div class="grid">
+
+      <!-- 1 -->
+      <article class="card card-featured">
+        <div class="card-top">
+          <span class="tag tag-live">En producción</span>
+          <span class="tag">HTML · CSS · JS</span>
+        </div>
+        <h3>FacturaLista RD</h3>
+        <p class="card-sub">Sitio comercial para servicios de facturación electrónica e-CF en República Dominicana.</p>
+        <ul class="card-list">
+          <li>Diseño responsive construido desde cero, sin frameworks ni dependencias externas.</li>
+          <li>SEO técnico: metadatos, Open Graph, JSON-LD, sitemap, <code>robots.txt</code> y página 404 propia.</li>
+          <li>Desplegado en GitHub Pages con dominio de proyecto y cabeceras de seguridad.</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-sm btn-primary" href="https://fabian0602.github.io/facturalista/" target="_blank" rel="noopener">
+            Ver sitio en vivo
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+          </a>
+          <a class="btn btn-sm btn-ghost" href="https://github.com/fabian0602/facturalista" target="_blank" rel="noopener">Código</a>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="card">
+        <div class="card-top">
+          <span class="tag tag-demo">Demo en vivo</span>
+          <span class="tag">JS · CRUD</span>
+        </div>
+        <h3>Panel de Estudiantes</h3>
+        <p class="card-sub">CRUD completo con módulos ES6, arrays y objetos.</p>
+        <ul class="card-list">
+          <li>Crear, editar, eliminar y buscar registros con validación de entrada.</li>
+          <li>Estado persistido en <code>localStorage</code> y renderizado sin recargar la página.</li>
+          <li>Separación entre capa de datos y capa de interfaz.</li>
+        </ul>
+        <div class="card-actions">
+          <button class="btn btn-sm btn-primary" type="button" data-open="demo-crud">Probar demo</button>
+          <a class="btn btn-sm btn-ghost" href="https://github.com/fabian0602/gestion-estudiantes-js" target="_blank" rel="noopener">Código</a>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="card">
+        <div class="card-top">
+          <span class="tag tag-demo">Demo en vivo</span>
+          <span class="tag">Validación</span>
+        </div>
+        <h3>Formulario de Reserva</h3>
+        <p class="card-sub">Validación de tarjeta, correo y fecha en el navegador.</p>
+        <ul class="card-list">
+          <li>Formato automático de tarjeta (16 dígitos) y vencimiento MM/AA.</li>
+          <li>Mensajes de error por campo con <code>aria-live</code> para lectores de pantalla.</li>
+          <li>Sin librerías: DOM y expresiones regulares.</li>
+        </ul>
+        <div class="card-actions">
+          <button class="btn btn-sm btn-primary" type="button" data-open="demo-form">Probar demo</button>
+          <a class="btn btn-sm btn-ghost" href="https://github.com/fabian0602/PAGINA-FORMULARIO" target="_blank" rel="noopener">Código</a>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="card">
+        <div class="card-top">
+          <span class="tag tag-demo">Demo en vivo</span>
+          <span class="tag">Lógica</span>
+        </div>
+        <h3>Calculadora</h3>
+        <p class="card-sub">Lógica aritmética separada de la interfaz.</p>
+        <ul class="card-list">
+          <li>Operaciones encadenadas y manejo de división entre cero.</li>
+          <li>Entrada por teclado y por botones, con el mismo resultado.</li>
+          <li>Estado predecible: sin <code>eval</code> ni código dinámico.</li>
+        </ul>
+        <div class="card-actions">
+          <button class="btn btn-sm btn-primary" type="button" data-open="demo-calc">Probar demo</button>
+          <a class="btn btn-sm btn-ghost" href="https://github.com/fabian0602/Calculadora-basica-2" target="_blank" rel="noopener">Código</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section class="section section-alt" id="stack">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow">Herramientas</p>
+        <h2>Stack</h2>
+        <p class="section-lead">Lo que uso hoy, sin adornos. Lo que está en aprendizaje va marcado como tal.</p>
+      </header>
+
+      <div class="stack-grid">
+        <div class="stack-col">
+          <h3>Lenguajes</h3>
+          <ul class="chips">
+            <li>JavaScript (ES6)</li>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SQL <span class="wip">en curso</span></li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h3>Frontend</h3>
+          <ul class="chips">
+            <li>DOM</li>
+            <li>Validación de formularios</li>
+            <li>Diseño responsive</li>
+            <li>Accesibilidad básica</li>
+            <li>localStorage</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h3>Herramientas</h3>
+          <ul class="chips">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitHub Pages</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h3>Datos y QA</h3>
+          <ul class="chips">
+            <li>Excel / Google Sheets</li>
+            <li>Pruebas manuales</li>
+            <li>Reporte de bugs</li>
+            <li>Documentación</li>
+            <li>Automatización con Python</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MÍ ============ -->
+  <section class="section wrap" id="sobre-mi">
+    <div class="about">
+      <div class="about-text">
+        <p class="eyebrow">Sobre mí</p>
+        <h2>Aprendo construyendo, no mirando tutoriales.</h2>
+        <p>
+          Empecé con JavaScript en 2025 y desde entonces no he parado de publicar proyectos.
+          Estudio unas 6 horas al día, practico inglés 30 minutos y documento cada cosa que
+          subo a GitHub. Mi formación base es mercadeo (tres cuatrimestres en UNAPEC), y eso
+          me da algo que muchos juniors no tienen: entiendo el negocio detrás del software.
+        </p>
+        <p>
+          Busco mi primera posición formal como desarrollador junior o QA manual en Santo Domingo,
+          en modalidad híbrida o presencial. Estoy disponible de inmediato.
+        </p>
+        <div class="about-tags">
+          <span>Inglés B1</span>
+          <span>Disponibilidad inmediata</span>
+          <span>Trabajo en equipo</span>
+          <span>Detalle en QA</span>
+        </div>
+      </div>
+
+      <aside class="about-card">
+        <h3>Lo que puedo aportar desde el día uno</h3>
+        <ul class="check-list">
+          <li>Maquetar interfaces responsive con HTML y CSS limpio.</li>
+          <li>Implementar validaciones y formularios sin librerías.</li>
+          <li>Probar flujos manualmente y documentar los errores con pasos claros.</li>
+          <li>Escribir scripts de Python para tareas repetitivas.</li>
+          <li>Mantener el código en Git con historial legible.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="section section-dark" id="contacto">
+    <div class="wrap contact">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>¿Hablamos?</h2>
+        <p class="section-lead">Respondo el mismo día. Si es una prueba técnica, mejor: me interesa más demostrar que hablar.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:gt23rew@gmail.com">
+          <span class="ci-label">Correo</span>
+          <span class="ci-value">gt23rew@gmail.com</span>
+        </a>
+        <a class="contact-item" href="tel:+18494080206">
+          <span class="ci-label">Teléfono</span>
+          <span class="ci-value">+1 849 408 0206</span>
+        </a>
+        <a class="contact-item" href="https://github.com/fabian0602" target="_blank" rel="noopener">
+          <span class="ci-label">GitHub</span>
+          <span class="ci-value">github.com/fabian0602</span>
+        </a>
+        <div class="contact-item">
+          <span class="ci-label">Ubicación</span>
+          <span class="ci-value">Santo Domingo, República Dominicana</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2026</span> Fabian Ismael Almonte Guilamo · Santo Domingo, RD</p>
+    <p class="footer-meta">Sitio construido con HTML, CSS y JavaScript puro.</p>
+  </div>
+</footer>
+
+<!-- ================= DEMOS ================= -->
+
+<dialog class="modal" id="demo-calc" aria-labelledby="demo-calc-title">
+  <div class="modal-head">
+    <h3 id="demo-calc-title">Calculadora</h3>
+    <button class="modal-close" type="button" data-close aria-label="Cerrar">&times;</button>
+  </div>
+  <div class="calc">
+    <output class="calc-screen" id="calc-screen" aria-live="polite">0</output>
+    <div class="calc-keys">
+      <button type="button" data-k="clear" class="k-fn">C</button>
+      <button type="button" data-k="sign" class="k-fn">±</button>
+      <button type="button" data-k="pct" class="k-fn">%</button>
+      <button type="button" data-k="/" class="k-op">÷</button>
+      <button type="button" data-k="7">7</button>
+      <button type="button" data-k="8">8</button>
+      <button type="button" data-k="9">9</button>
+      <button type="button" data-k="*" class="k-op">×</button>
+      <button type="button" data-k="4">4</button>
+      <button type="button" data-k="5">5</button>
+      <button type="button" data-k="6">6</button>
+      <button type="button" data-k="-" class="k-op">−</button>
+      <button type="button" data-k="1">1</button>
+      <button type="button" data-k="2">2</button>
+      <button type="button" data-k="3">3</button>
+      <button type="button" data-k="+" class="k-op">+</button>
+      <button type="button" data-k="0" class="k-zero">0</button>
+      <button type="button" data-k=".">.</button>
+      <button type="button" data-k="=" class="k-eq">=</button>
+    </div>
+    <p class="hint">También funciona con el teclado: números, + − * /, Enter y Esc.</p>
+  </div>
+</dialog>
+
+<dialog class="modal" id="demo-form" aria-labelledby="demo-form-title">
+  <div class="modal-head">
+    <h3 id="demo-form-title">Reserva</h3>
+    <button class="modal-close" type="button" data-close aria-label="Cerrar">&times;</button>
+  </div>
+  <form class="res-form" id="reservation-form" novalidate>
+    <div class="field">
+      <label for="r-name">Nombre completo</label>
+      <input id="r-name" name="name" type="text" autocomplete="name" placeholder="Fabian Almonte" />
+      <p class="err" data-err-for="r-name"></p>
+    </div>
+    <div class="field">
+      <label for="r-email">Correo electrónico</label>
+      <input id="r-email" name="email" type="email" autocomplete="email" placeholder="tucorreo@dominio.com" />
+      <p class="err" data-err-for="r-email"></p>
+    </div>
+    <div class="field">
+      <label for="r-date">Fecha</label>
+      <input id="r-date" name="date" type="date" />
+      <p class="err" data-err-for="r-date"></p>
+    </div>
+    <div class="field">
+      <label for="r-card">Número de tarjeta</label>
+      <input id="r-card" name="card" type="text" inputmode="numeric" autocomplete="cc-number" placeholder="0000 0000 0000 0000" maxlength="19" />
+      <p class="err" data-err-for="r-card"></p>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="r-exp">Vencimiento</label>
+        <input id="r-exp" name="exp" type="text" inputmode="numeric" autocomplete="cc-exp" placeholder="MM/AA" maxlength="5" />
+        <p class="err" data-err-for="r-exp"></p>
+      </div>
+      <div class="field">
+        <label for="r-cvv">CVV</label>
+        <input id="r-cvv" name="cvv" type="text" inputmode="numeric" autocomplete="cc-csc" placeholder="123" maxlength="3" />
+        <p class="err" data-err-for="r-cvv"></p>
+      </div>
+    </div>
+    <button class="btn btn-primary btn-block" type="submit">Confirmar reserva</button>
+    <p class="form-note">Demo educativa. No se envía ni se guarda ningún dato.</p>
+    <div class="success" id="form-success" hidden>
+      <strong>Reserva validada ✓</strong>
+      <span>Todos los campos pasaron las reglas de validación.</span>
+    </div>
+  </form>
+</dialog>
+
+<dialog class="modal modal-wide" id="demo-crud" aria-labelledby="demo-crud-title">
+  <div class="modal-head">
+    <h3 id="demo-crud-title">Panel de Estudiantes</h3>
+    <button class="modal-close" type="button" data-close aria-label="Cerrar">&times;</button>
+  </div>
+
+  <form class="crud-form" id="crud-form" autocomplete="off">
+    <div class="field">
+      <label for="c-name">Nombre</label>
+      <input id="c-name" type="text" placeholder="Ana Pérez" />
+    </div>
+    <div class="field">
+      <label for="c-grade">Nota</label>
+      <input id="c-grade" type="number" min="0" max="100" step="1" placeholder="85" />
+    </div>
+    <button class="btn btn-primary" type="submit" id="crud-submit">Agregar</button>
+    <button class="btn btn-ghost" type="button" id="crud-cancel" hidden>Cancelar</button>
+  </form>
+
+  <div class="crud-bar">
+    <input type="search" id="crud-search" placeholder="Buscar por nombre…" aria-label="Buscar estudiante" />
+    <span class="crud-count" id="crud-count">0 registros</span>
+  </div>
+
+  <div class="table-wrap">
+    <table class="table">
+      <thead>
+        <tr><th scope="col">#</th><th scope="col">Nombre</th><th scope="col">Nota</th><th scope="col">Estado</th><th scope="col"><span class="sr-only">Acciones</span></th></tr>
+      </thead>
+      <tbody id="crud-body"></tbody>
+    </table>
+    <p class="empty" id="crud-empty">No hay estudiantes. Agrega el primero arriba.</p>
+  </div>
+  <p class="hint">Los datos se guardan en tu navegador (localStorage).</p>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

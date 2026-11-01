@@ -9,12 +9,12 @@
   --surface-2: #eef1f5;
   --ink: #0d1726;
   --ink-2: #334155;
-  --muted: #64748b;
+  --muted: #5a6a7f;
   --line: #e2e8f0;
   --brand: #17457a;
   --brand-2: #2563eb;
   --accent: #b4761c;
-  --ok: #0f7a4f;
+  --ok: #0b6b46;
   --shadow-sm: 0 1px 2px rgba(13, 23, 38, .06), 0 1px 3px rgba(13, 23, 38, .04);
   --shadow-md: 0 8px 24px rgba(13, 23, 38, .07);
   --radius: 14px;
@@ -245,7 +245,7 @@ code {
   background: var(--surface-2); padding: 4px 9px; border-radius: 6px;
 }
 .tag-live { color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent); }
-.tag-demo { color: var(--brand-2); background: color-mix(in srgb, var(--brand-2) 12%, transparent); }
+.tag-demo { color: #1d4ed8; background: color-mix(in srgb, var(--brand-2) 12%, transparent); }
 
 .card h3 { font-size: 1.16rem; }
 .card-sub { margin-top: 6px; color: var(--muted); font-size: .93rem; }

@@ -271,7 +271,7 @@ code {
 [data-theme="light"] .section-alt .chips li { background: var(--bg); }
 .wip {
   font-size: .66rem; font-weight: 700; text-transform: uppercase;
-  color: var(--accent); margin-left: 4px;
+  color: #85560f; margin-left: 4px;
 }
 
 /* ---------------- ABOUT ---------------- */
